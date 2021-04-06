@@ -21,12 +21,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/bg_input"
+        android:hint="Email Address"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="220dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="96dp"
-        android:background="@color/pink"
+        android:background="@drawable/bg_btn1"
         android:text="Get Started"
         android:textAllCaps="false"
         android:textColor="#FFF"
