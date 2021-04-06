@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,16 +22,16 @@ public class MainActivity extends AppCompatActivity {
         //mendapati id pada xml
         logo = findViewById(R.id.logo);
 
-        //memberikan event kpd logo
-        logo.setOnClickListener(new View.OnClickListener() {
+        //membuat timer untuk pindah activity secara otomatis
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
             @Override
-            public void onClick(View v) {
-                //menuju halaman lain
+            public void run() {
+                //melakukan sesuatu setelah delay selama 2000
                 Intent a = new Intent(MainActivity.this, StartActivity.class);
                 startActivity(a);
                 finish();
             }
-        });
-
+        }, 2000);
     }
 }
