@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:fontFamily="@font/MRegular"
+        android:fontFamily="@font/mregular"
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:fontFamily="@font/MLight"
+        android:fontFamily="@font/mlight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="368dp"

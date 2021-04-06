@@ -7,6 +7,7 @@
     tools:context=".StartActivity">
 
     <TextView
+        android:fontFamily="@font/medium"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:fontFamily="@font/mlight"
         android:id="@+id/email"
         android:layout_width="260dp"
         android:layout_height="50dp"
@@ -35,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:fontFamily="@font/MMedium"
+        android:fontFamily="@font/medium"
         android:id="@+id/button"
         android:layout_width="220dp"
         android:layout_height="50dp"
