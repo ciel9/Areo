@@ -7,13 +7,14 @@
     tools:context=".StartActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:lineSpacingExtra="8dp"
-        android:textColor="@color/black"
         android:text="Hi ! Welcome \nto Areo. "
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.539"
@@ -22,14 +23,14 @@
 
     <Button
         android:id="@+id/button"
-        android:text="Get Started"
-        android:textColor="#FFF"
-        android:textSize="22sp"
-        android:textAllCaps="false"
-        android:background="@color/pink"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:layout_marginBottom="96dp"
+        android:background="@color/pink"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
