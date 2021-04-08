@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //melakukan sesuatu setelah delay selama 2000
-                Intent a = new Intent(MainActivity.this, StartActivity.class);
-                startActivity(a);
+                Intent start = new Intent(MainActivity.this, StartActivity.class);
+                startActivity(start);
                 finish();
             }
         }, 2000);

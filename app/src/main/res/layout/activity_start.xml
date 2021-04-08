@@ -6,49 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-69dp" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_getstarted"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="42dp" />
+
     <TextView
-        android:fontFamily="@font/medium"
-        android:id="@+id/textView"
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:lineSpacingExtra="8dp"
-        android:text="Hi ! Welcome \nto Areo. "
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="36sp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/medium"
+        android:text="Welcome to \nAreo."
+        android:textColor="#FFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:fontFamily="@font/mlight"
-        android:id="@+id/email"
-        android:layout_width="260dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="60dp"
-        android:background="@drawable/bg_input"
-        android:hint="Email Address"
-        android:paddingLeft="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.456"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
-        android:fontFamily="@font/medium"
         android:id="@+id/button"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="96dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="160dp"
         android:background="@drawable/bg_btn1"
-        android:text="Get Started"
+        android:fontFamily="@font/medium"
+        android:text="@string/signin"
         android:textAllCaps="false"
         android:textColor="#FFF"
-        android:textSize="22sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/bg_btnaccount"
+        android:fontFamily="@font/medium"
+        android:text="NEW ACCOUNT"
+        android:textAllCaps="false"
+        android:textColor="#B9B9B9"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/mregular"
+        android:text="find events and points \nof interest with Areo."
+        android:textColor="#D5D5D5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Areo</string>
     <string name="label_checkout">CheckOut</string>
+    <string name="signin">SIGN IN</string>
 </resources>
