@@ -2,4 +2,6 @@
     <string name="app_name">Areo</string>
     <string name="label_checkout">CheckOut</string>
     <string name="signin">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
