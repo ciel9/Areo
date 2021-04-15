@@ -12,4 +12,6 @@
     <color name="pinklight">#FF73B3</color>
     <color name="blackdark">#21272C</color>
     <color name="bg_pinklight">#FAECF0</color>
+    <color name="grayprimary">#707070</color>
+    <color name="greenprimary">#1abc9c</color>
 </resources>
