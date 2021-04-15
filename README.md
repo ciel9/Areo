@@ -1,2 +1,2 @@
 # Areo.
-merupakan aplikasi berbasis android untuk pemesanan tiket travel secara online.
+merupakan aplikasi berbasis mobile dengan platform  android  yang berguna untuk pemesanan tiket travel / event secara online.
