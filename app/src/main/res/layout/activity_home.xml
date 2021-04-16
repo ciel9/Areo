@@ -63,7 +63,7 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="29dp"
                 android:layout_marginTop="29dp"
-                android:src="@drawable/photo_user"
+                android:src="@drawable/user_pic_1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
