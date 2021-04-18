@@ -11,6 +11,7 @@ public class MyProfileActivity extends AppCompatActivity {
 
     ImageView back2;
     ImageView ticket_detail1;
+    ImageView image2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,14 @@ public class MyProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent gototicket = new Intent(MyProfileActivity.this, DetailTicketActivity.class);
                 startActivity(gototicket);
+            }
+        });
+        image2 = findViewById(R.id.image2);
+        image2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gototicket2 = new Intent(MyProfileActivity.this, DetailTicketActivity.class);
+                startActivity(gototicket2);
             }
         });
     }
