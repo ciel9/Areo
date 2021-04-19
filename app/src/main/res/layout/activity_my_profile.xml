@@ -241,7 +241,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_view_ticket"
+        android:id="@+id/btn_edit_profile"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="16dp"
@@ -274,6 +274,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_view_ticket"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edit_profile"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
