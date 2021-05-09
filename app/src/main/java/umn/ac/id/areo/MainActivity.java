@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     TextView app_logo;
     TextView app_subtitle;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //mendapati id pada xml
         app_logo = findViewById(R.id.app_logo);
         app_subtitle = findViewById(R.id.app_subtitle);
+
 
         //load animation
         app_splash = AnimationUtils.loadAnimation(this, R.anim.app_splash);
