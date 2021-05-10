@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905602117358",
+    "project_id": "areo-b6ac4",
+    "storage_bucket": "areo-b6ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905602117358:android:9a94ddac2b6b33ddc80dff",
+        "android_client_info": {
+          "package_name": "umn.ac.id.areo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905602117358-cccl31tpfnlrkku5o7ut7h328k62vlpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWfdNX7bdp9LJZve6w7jczzUgR9zcxQpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905602117358-cccl31tpfnlrkku5o7ut7h328k62vlpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
