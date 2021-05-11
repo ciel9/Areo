@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
-    ImageView btn_to_profile;
+    ImageView pic_photo_home_user_circled;
     LinearLayout btn_ticket_pisa;
 
     @Override
@@ -27,8 +27,8 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        btn_to_profile = findViewById(R.id.btn_to_profile);
-        btn_to_profile.setOnClickListener(new View.OnClickListener(){
+        pic_photo_home_user_circled = findViewById(R.id.pic_photo_home_user_circled);
+        pic_photo_home_user_circled.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent profile = new Intent(HomeActivity.this, MyProfileActivity.class);
