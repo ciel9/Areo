@@ -51,6 +51,9 @@ public class SigninActivity extends AppCompatActivity {
         btn_sign_in.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //ubah button jadi loading ketika sudah di klik
+                btn_sign_in.setEnabled(false);
+                btn_sign_in.setText("Loading ...");
                 String username = xusername.getText().toString();
                 String password = xpassword.getText().toString();
                 reference = FirebaseDatabase.getInstance().getReference().child("Users")
