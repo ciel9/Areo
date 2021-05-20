@@ -48,6 +48,9 @@ public class RegisterOneActivity extends AppCompatActivity {
         btn_continue.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                //ubah button jadi loading ketika sudah di klik
+                btn_continue.setEnabled(false);
+                btn_continue.setText("Loading ...");
                 //menyimpan data ke local storage
                 SharedPreferences sharedPreferences = getSharedPreferences(USERNAME_KEY, MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();

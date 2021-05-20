@@ -48,7 +48,7 @@ public class HomeActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 nama_lengkap.setText(snapshot.child("nama_lengkap").getValue().toString());
                 bio.setText(snapshot.child("bio").getValue().toString());
-                user_balance.setText(snapshot.child("user_balance").getValue().toString());
+                user_balance.setText("Rp. " + snapshot.child("user_balance").getValue().toString());
             }
 
             @Override
