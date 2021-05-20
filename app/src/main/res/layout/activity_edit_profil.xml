@@ -234,18 +234,23 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/photo_edit_profile"
+        <com.github.florent37.shapeofview.shapes.CircleView
             android:layout_width="90dp"
             android:layout_height="90dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="193dp"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/user_pic_1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/pic_photo_register_user_circled"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/jongki_man" />
+        </com.github.florent37.shapeofview.shapes.CircleView>
 
         <Button
             android:layout_width="35dp"
