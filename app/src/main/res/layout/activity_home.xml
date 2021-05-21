@@ -29,7 +29,7 @@
                 android:layout_height="310dp"
                 android:background="@drawable/bg_signin"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,7 +62,13 @@
                     android:id="@+id/pic_photo_home_user_circled"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/jongki_man" />
+                     android:src="@drawable/jongki_man"/>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_profile_circle" />
 
 
             </com.github.florent37.shapeofview.shapes.CircleView>

@@ -16,6 +16,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -49,6 +50,8 @@ public class HomeActivity extends AppCompatActivity {
                 nama_lengkap.setText(snapshot.child("nama_lengkap").getValue().toString());
                 bio.setText(snapshot.child("bio").getValue().toString());
                 user_balance.setText("Rp. " + snapshot.child("user_balance").getValue().toString());
+                Picasso.with(HomeActivity.this).load(snapshot.child("url_photo_profile").getValue()
+                        .toString()).centerCrop().fit().into(pic_photo_home_user_circled);
             }
 
             @Override
