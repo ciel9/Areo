@@ -1,2 +1,2 @@
 # Areo.
-merupakan aplikasi berbasis mobile dengan platform  android menggunakan bahasa pemograman Java untuk back end, XML untuk front end, dan Firebase untuk penyimpanan data. Aplikasi ini berguna untuk pemesanan tiket travel / event secara online.
+is a mobile-based application with the android platform using the Java programming language for the back end, XML for the front end, and Firebase for data storage. This application is useful for booking travel / event tickets online.
